@@ -4,7 +4,10 @@
   "description": "A password validation tool set",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "build": "tsc",
+    "test": "npm run build && mocha **/*.spec.js",
+    "test-watch": "nodemon -e ts --ignore '*.d.ts' --exec 'npm run test'",
+    "prepublishOnly": "npm run test"
   },
   "repository": {
     "type": "git",
