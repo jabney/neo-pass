@@ -65,3 +65,6 @@ typings/
 
 # Source maps
 **/*.js.map
+
+# Generated JS
+**/*.js
