@@ -68,3 +68,6 @@ typings/
 
 # Generated JS
 **/*.js
+
+# Declaration files
+**/*.d.ts
