@@ -1,0 +1,35 @@
+{
+  "name": "neo-pass",
+  "version": "0.0.1",
+  "description": "A password validation tool set",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jabney/neo-pass.git"
+  },
+  "keywords": [
+    "password",
+    "passphrase",
+    "validation",
+    "strength",
+    "topology",
+    "middleware"
+  ],
+  "author": "James Abney",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jabney/neo-pass/issues"
+  },
+  "homepage": "https://github.com/jabney/neo-pass#readme",
+  "devDependencies": {
+    "@types/mocha": "^5.2.3",
+    "@types/node": "^10.5.8",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5",
+    "tslint": "^5.10.0",
+    "typescript": "^3.0.1"
+  }
+}
