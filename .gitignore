@@ -63,11 +63,9 @@ typings/
 # VS Code Workspace
 .vscode/
 
-# Generated JS
-**/*.js
+# Build
+lib/
 
-# Source maps
-**/*.js.map
-
-# Declaration files
-**/*.d.ts
+# Temp
+**/temp/
+src.old/
