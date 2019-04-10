@@ -2,9 +2,10 @@
   "name": "neo-pass",
   "version": "0.0.1",
   "description": "A password validation tool set",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
+    "clean": "rm -rf lib",
     "test": "npm run build && mocha **/*.spec.js",
     "test-watch": "nodemon -e ts --ignore '*.d.ts' --exec 'npm run test'",
     "prepublishOnly": "npm run test"
@@ -32,8 +33,9 @@
     "@types/node": "^10.5.8",
     "mocha": "^5.2.0",
     "nodemon": "^1.17.5",
+    "regex-each": "^1.0.3",
     "tslint": "^5.10.0",
-    "typescript": "^3.0.1"
+    "typescript": "^3.4.2"
   },
   "files": [
     "**/*.js",
