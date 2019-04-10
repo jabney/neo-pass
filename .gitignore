@@ -61,11 +61,12 @@ typings/
 .next
 
 # VS Code Workspace
-.vscode/
+.vscode
 
 # Build
-lib/
+/lib
 
 # Temp
 **/temp/
 src.old/
+/data
